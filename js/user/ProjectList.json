@@ -1,0 +1,242 @@
+[
+ {
+   "Project": "Developed Mobile WebStore App in Android Studio",
+   "Description": "Developed Mobile WebStore App in Android Studio using Java and XML. App includes a very basic BuyFlow and Google Maps integration",
+   "Domain": "Mobile",
+   "Tech": "Android, Java, XML"
+ },
+ {
+   "Project": "Developed Personal Site",
+   "Description": "Developed my Personal Website as a means to highlight and practice my Front End Development. Site is built using Angular-JS, CSS, HTML5, JS, and XML. The code is sourced on GitHub and my local copy includes Apache Tomcat servers and Maven Repository integration.",
+   "Domain": "Front End Development",
+   "Tech": "Angular-JS, CSS, HTML5, JS, XML"
+ },
+ {
+   "Project": "Developed Structured Product Page for Vest Financial LLC",
+   "Description": "Developed a Structured Product Page for Vest Financial to meet their rapidly expanding Business needs. The Fin-Tech start up just rolled out their newest Mutual Fund which can be found on https://cboevestfunds.com/",
+   "Domain": "Front End Development",
+   "Tech": "Angular-JS, CSS, HTML5, JS, PHP, XML"
+ },
+ {
+   "Project": "Developed WebApp for Mobile Phone Comparison",
+   "Description": "Developed a WebApp for Mobile Phone Comparison during my training with Infosys Ltd. in Mysore, India. This Enterprise application includes an array of Technologies which included the development in Angular-JS, CSS, Hibernate, HTML5, Java, JDBC, JPA, JS, SQL, and XML. Apache Tomcat 7, Maven Repositores, Oracle Databases, and Jenkins Automation tools were also used in the creation with this application. The final WebApp received the highest marks out of the entire 2016 training batch.",
+   "Domain": "Full Stack Development",
+   "Tech": "Angular-JS, CSS, Hibernate, HTML5, Java, JDBC, JPA, JS, SQL, XML"
+ },
+ {
+   "Project": "Developed Scripts for Personal Directory Management",
+   "Description": "Developed a couple of scripts using Bash to manage my personal directories and rapidly find files without the use of MacOS GUI. This was mostly used as a means of learning certain functionality I had not yet been exposed to.",
+   "Domain": "General/Personal Usage",
+   "Tech": "Bash"
+ },
+ {
+   "Project": "Developed and Modified scripts for Network Monitoring and Remote Subversion",
+   "Description": "Using a number of different technologies I developed ways to remotely control a number of Linux and Windows machines. This was done as a white hat effort in a closed environment for my college coursework.",
+   "Domain": "Network Security",
+   "Tech": "Bash, NMap, WireShark"
+ },
+ {
+   "Project": "Developed and modified scripts for Password Cracking Attacks",
+   "Description": "Developed a couple of Bash and Python scripts to run automated Brute Force password cracking attacks against Linux executable programs. Also included some modification of password cracking scripts that are a part of the Open Sourced JackTheRipper project. This was done as a white hat effort in a closed environment for my college coursework.",
+   "Domain": "Software Security",
+   "Tech": "Bash, Python"
+ },
+ {
+   "Project": "Developed scripts for Automated Directory Searching and File Transfer",
+   "Description": "Developed Bash scripts that were executed by C++ executables to traverse user directories and steal information. These scripts could also automatically check a server for files that were using bad permissions and steal their data before permissions were changed. This was done as a white hat effort in a closed environment for my college coursework.",
+   "Domain": "Software Security",
+   "Tech": "Bash, C++"
+ },
+ {
+   "Project": "Developed a Virtual Memory Manager",
+   "Description": "Developed a Virtual Memory Manager in C to mock the functionality of a modern day MMU. This VMM included a Translation Lookaside Buffer (caching) and used standard Paging Practices.",
+   "Domain": "Operating Systems",
+   "Tech": "C-Language"
+ },
+ {
+   "Project": "Developed a Basic Process Scheduler",
+   "Description": "Developed a basic process scheduler in C to emulate how CPUs handle process scheduling. This scheduler was mainly used to see how certain schedules worked better than others in given scenarios. ",
+   "Domain": "Operating Systems",
+   "Tech": "C-Language"
+ },
+ {
+   "Project": "Developed a Kernel Shell",
+   "Description": "Developed a Kernel Shell in C which has the same functionality of a standard Terminal Shell on UNIX. My shell include Batch Mode functionality and would operate the same way a generic shell or command prompt.",
+   "Domain": "Operating Systems",
+   "Tech": "C-Language"
+ },
+ {
+   "Project": "Developed Kernel Modules to track Hardware Keystrokes",
+   "Description": "Developed a Kernel Module in C that was able to invisibly track Hardware Keystrokes on a given machine. This Module was able to be loaded and removed safely without crashing a Linux Box.",
+   "Domain": "Operating Systems",
+   "Tech": "C-Language"
+ },
+ {
+   "Project": "Developed Program to pipe String inputs through external Executables",
+   "Description": "Developed a basic program in C that was able to pipe string inputs through an external executable that would change all of the characters to Upper Case and then output. This program was used as an intro to piping and would be built upon in later projects to handle more advanced piping concepts.",
+   "Domain": "Operating Systems",
+   "Tech": "C-Language"
+ },
+ {
+   "Project": "Developed an Interpreter to parse BNF Metalanguage",
+   "Description": "Developed an interpreter in C that was able to parse a BNF metalanguage that was personally created. Using Composite Patterns this interpreter could interpreter could carry out operations and allowed for computation of any basic operation.",
+   "Domain": "Programming Languages",
+   "Tech": "C-Language"
+ },
+ {
+   "Project": "Developed a Program to detect Persons with High Risk of Heart Disease",
+   "Description": "Developed a program in C++ that was able to detect persons with a high risk of heart disease from a given input file. This file would be loaded as an command line argument and would be stored in a personally designed Linked-List. Some other internal operations were possible, but the main functionality was to output a text file that held the persons that were at risk of heart disease based on the Reynolds Heart Risk Score.",
+   "Domain": "Data Structures",
+   "Tech": "C++"
+ },
+ {
+   "Project": "Developed a number of Data Structures",
+   "Description": "Developed a number of Data Structure classes in C++ to learn the functionality of each, as well as their strengths and weaknesses. This list of classes included, but is not limited to, Linked Lists, Stacks/Queues, Binary Search Trees, and a self-balancing B-Tree.",
+   "Domain": "Data Structures",
+   "Tech": "C++"
+ },
+ {
+   "Project": "Developed a Password Storage and Generation application",
+   "Description": "Developed an application in C++ to store and generate seemingly random passwords. The application worked such that you gave a easy memorable password for a given account (facebook, twitter, etc..) and the application would hash it and return a 16 digit string. This string was seemingly non-sensical such that it was hard to break using brute force strategies, but would always be produced given the same input password and account type. I actually use this day to day for my personal accounts.",
+   "Domain": "Software Security",
+   "Tech": "C++"
+ },
+ {
+   "Project": "Participated in a “Cyber War Game” which included the Development of a Username/Password Protected Program",
+   "Description": "Participated in a class wide “Cyber War Game” which involved the development of a username/password protected program. Upon checking a set of approved credential a secret file would be read out to the terminal. This program was designed by each student and put on a class maintained server. Each member then set out to “steal” fellow classmates secret data using whatever methods they saw fit. Using a back traversal method which altered the running permissions of my executable I was able to obtain the secret data of 90% of my classmates, the highest percentage of the class. My program was also impenetrable, one of three which was not breakable.",
+   "Domain": "Software Security",
+   "Tech": "C++"
+ },
+ {
+   "Project": "Developed Static Splash Page for Georgetown University",
+   "Description": "Developed a static splash page for Georgetown University using HTML and CSS. The page was designed with the intention to peak the interest of other students to take Computer Science courses within Georgetown.",
+   "Domain": "Front End Development",
+   "Tech": "CSS, HTML5"
+ },
+ {
+   "Project": "Developed Not-for-Profit Library Database System with UI",
+   "Description": "Developed a database in the 3rd normal form using MySQL to achieve the functionality of standard library system. All of the logic was handled internally in SQL using transactions and triggers to handle a donation and token system. Used PHP as a driver to display the information in HTML for the UI.",
+   "Domain": "Databases",
+   "Tech": "HTML5, PHP, SQL"
+ },
+ {
+   "Project": "Developed a Node Clustering Program",
+   "Description": "Developed a basic Node Clustering Program in Java that would cluster Nodes on a cartesian plane based on the distances between them. The optimal clustering would result with the lowest group distance to the centroid of each node. This turned out to be a very simplified form of the k-nearest-neighbors algorithm in Machine Learning.",
+   "Domain": "Data Structures",
+   "Tech": "Java"
+ },
+ {
+   "Project": "Developed a basic Paint Program",
+   "Description": "Developed a basic Paint Program in Java using the builtin Swing and AWT libraries. This GUI allowed a user to draw basic shapes (circles, squares, triangles) using a set of allowed colors.",
+   "Domain": "Games/GUIs",
+   "Tech": "Java"
+ },
+ {
+   "Project": "Developed a Modified Version of the Classical “Snake” Game",
+   "Description": "Developed a modified version of the Classical “Snake” Game in Java using the builtin Swing and AWT libraries. Using multi-threading this modified version of the game smoothly accepted user input, had background Arcade music, and allowed for a 2-Player mode.",
+   "Domain": "Games/GUIs",
+   "Tech": "Java"
+ },
+ {
+   "Project": "Developed a Game for kids learning about recycling",
+   "Description": "Developed a game in Java using the builtin Swing and AWT libraries to teach kids how to properly differentiate between Recyclable, Compost, and Landfill waste. Aimed to be used in a classroom setting as a learning guide, this application guided the user through a fast informational screen explaining the difference in types of trash. Then the user would drag and drop different types of waste off of a conveyer belt into their correct bins. The game became increasingly difficult by adding more different types of each waste and through increasing the conveyer belt speed. ",
+   "Domain": "Games/GUIs",
+   "Tech": "Java"
+ },
+ {
+   "Project": "Developed Object-Oriented DataSet classes to store Training/Testing data",
+   "Description": "Developed a number of classes in Python to emulate Object Oriented DataSets to be used in a number of Machine Learning Algorithms. The classes were designed such that they could handle any number of nominal or numerical attributes simulating a matrix of any size.",
+   "Domain": "Machine Learning",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed class to train any given DataSet with kNN Algorithm",
+   "Description": "Developed a class in Python that was able to exercise the kNN Supervised Learning algorithm on any set of training data. By clustering data similar to each other, this learner could categorize test data after a learning cycle. This learner was able to execute a number of cross validation folds, further improving the accuracy of its weak learning algorithm.",
+   "Domain": "Machine Learning",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed class to train any given DataSet with Naive Bayes Algorithm",
+   "Description": "Developed a class in Python that was able to exercise the Naive Bayes Supervised Learning algorithm on any set of training data. By measuring and learning probabilities of training data, this weak learner could categorize test data based on its attributes. This learner was able to execute a number of cross validation folds, further improving the accuracy of its weak learning algorithm.",
+   "Domain": "Machine Learning",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed a class to execute Decision Tree Learning with ID3 Algorithm",
+   "Description": "Developed a class in Python that was able to build a Decision Tree using the ID3 Learning algorithm on any set of training data. By making greedy choices on which attributes made the biggest impact on categorization of testing data, this weak learning tree could categorize test data based on its attributes.",
+   "Domain": "Machine Learning",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed a class to train Artificial Neural Networks with Back-Propagation and Gradient Descent Optimization",
+   "Description": "Developed a number of classes in Python that were able to build and then train an artificial neural network using the back-propagation algorithm. Using Gradient Descent, the program optimized to find minima. Using a variance of noise levels the program was able to “bounce out” of local minima and find the true minima of the network. These minima could then be used to produce incredibly accurate categorization tests.",
+   "Domain": "Machine Learning",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed Class to train DataSets using Boosting Ensemble Algorithms",
+   "Description": "Developed a class in Python that used the Ensemble Boosting algorithm to combine the Naive Bayes and kNN weak learners to make a stronger learner. Iteratively using each algorithm and giving more importance to Data points that were improperly assigned the iteration before, this class could improve the categorization accuracy of both Naive Bayes and kNN significantly.",
+   "Domain": "Machine Learning",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed an Encrypted Peer-to-Peer Instant Messaging System",
+   "Description": "Developed a peer to peer instant messaging system using python sockets. This system sent encrypted messages using a RSA handshake that maintained internally in the application. When the network packets were sniffed using packet sniffers, there was no ability to retrieve data or use man in the middle attacks.",
+   "Domain": "Network Security",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed a Drone Controller able to remotely control Parrot.AR Drones",
+   "Description": "Developed a Drone Controller in Python that is able to remotely controller a Parrot.AR Drone using a keyboard. The Controller works using Python sockets.",
+   "Domain": "Network Security",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed a Drone Subverter able to overtake control of a Parrot.AR Drone",
+   "Description": "Developed a Drone Subverter in Python that is able to overtake control of a currently flying Parrot.AR Drone and land it to the ground. The Subverter was also successful in shutting out the previous user by blacklisting their MAC address from the drone’s internal hardware.",
+   "Domain": "Network Security",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed scripts for Proprietary Cryptography reversal attacks",
+   "Description": "Developed a number of scripts in Python that were meant to reverse the logic of proprietary cryptography. These scripts were used in a “Cyber War Game” in which the goal was to break a simple username/password protected application and obtain the “secret data”. Many applications used “obscure” self-developed cryptography which was easily reversible. Running a script on the reversed crypto logic allowed for fast attempts until a fake authentication was triggered in the executable.",
+   "Domain": "Software Security",
+   "Tech": "Python"
+ },
+ {
+   "Project": "Developed a number of small apps to parse Wikipedia Data Dumps",
+   "Description": "Developed a number of small apps to parse publicly released Wikipedia Data Dumps using Scala with the Spark Framework. These were used to learn how basic Scala RDDs worked and laid the groundwork for bigger projects.",
+   "Domain": "Big Data",
+   "Tech": "Scala"
+ },
+ {
+   "Project": "Developed an application to perform Google’s PageRank Algorithm over Wikipedia Data Dumps",
+   "Description": "Developed a Scala application using the Spark Framework to execute the Google PageRank Algorithm over Wikipedia Data Dumps. This algorithm is the same used by Google Search and measures the importance of a given page based on the number of links it has to it.",
+   "Domain": "Big Data",
+   "Tech": "Scala"
+ },
+ {
+   "Project": "Developed an application to recommend movies based on the Collaborative Filtering Algorithm",
+   "Description": "Developed a Scala application using the Spark Framework to recommend movies based on the Collaborative Filtering Algorithm. This algorithm is the same one that Netflix uses and measures the similarity of user choice based upon a large number of input fields.",
+   "Domain": "Big Data",
+   "Tech": "Scala"
+ },
+ {
+   "Project": "Developed basic iOS App to test generic functionality of Swift ",
+   "Description": "Developed a basic iOS application to test the generic functionality of the Swift Language. This was entirely used as a learning experience and as a intro to Swift.",
+   "Domain": "Mobile",
+   "Tech": "Swift"
+ },
+ {
+   "Project": "Developed GUI to show real Planetary Orbit using Physical Equations",
+   "Description": "Developed a 3-Dimensional GUI using VPython to show Planetary Orbit as a function of real Physical properties. The orbit was tracked and animated as a function of the planet’s distance between the sun and its own moons. ",
+   "Domain": "Physics",
+   "Tech": "VPython"
+ },
+ {
+   "Project": "Developed GUI to show Quantum Interactions  of Atoms in a closed space",
+   "Description": "Developed a 3-Dimensional GUI using VPython to show the Quantum Interactions of Atoms in a closed box. As a user, you could add an infinite number of electrons within the closed box and monitor the movement using color coordinated tracking. Using the input from the /usr/random file, I was able to fake simulate Brownian motion which gave the appearance of pure randomness of motion.",
+   "Domain": "Physics",
+   "Tech": "VPython"
+ }
+]

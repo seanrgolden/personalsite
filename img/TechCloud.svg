@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024px" height="768px" viewBox="0 0 1024 768">
+<clipPath id="cp1">
+<path d="M 0,0 L 1024,0 L1024,768 L 0,768 z M 0,0 L 1280,0 L 1280,960 L 0,960 z" fill-rule="evenodd">
+</path>
+</clipPath>
+<g clip-path="url(#cp1)">
+</g>
+<rect x="0" y="0" width="1280" height="960" opacity="1" fill="#ffffff" stroke="none">
+</rect>
+<text x="-151.41549682617188" y="8.016153600000003" style="font: normal 80.16153600000001px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="31.684401581027675" opacity="1" fill="#ffcc00" stroke="none" transform="translate(512, 382)">Python</text>
+<text x="-104.68160247802734" y="8.016153600000003" style="font: normal 80.16153600000001px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="31.684401581027675" opacity="1" fill="#ffcc00" stroke="none" transform="translate(512, 448) rotate(-12)">Java</text>
+<text x="-84.0936279296875" y="8.016153600000003" style="font: normal 80.16153600000001px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="31.684401581027675" opacity="1" fill="#ffcc00" stroke="none" transform="translate(498, 326)">C++</text>
+<text x="-122.88622283935547" y="6.41292288" style="font: normal 64.1292288px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="25.347521264822138" opacity="1" fill="#ffcc00" stroke="none" transform="translate(542, 504) rotate(-12)">HTML5</text>
+<text x="-24.937294006347656" y="6.41292288" style="font: normal 64.1292288px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="25.347521264822138" opacity="1" fill="#ffcc00" stroke="none" transform="translate(530, 284) rotate(12)">C</text>
+<text x="-142.94326782226562" y="4.809692159999997" style="font: normal 48.0969216px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="19.010640948616604" opacity="1" fill="#ffcc00" stroke="none" transform="translate(452, 262) rotate(-12)">Angular-JS</text>
+<text x="-73.48517608642578" y="4.809692159999997" style="font: normal 48.0969216px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="19.010640948616604" opacity="1" fill="#ffcc00" stroke="none" transform="translate(648, 338) rotate(-12)">Scala</text>
+<text x="-65.46625518798828" y="4.809692159999997" style="font: normal 48.0969216px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="19.010640948616604" opacity="1" fill="#ffcc00" stroke="none" transform="translate(372, 442) rotate(12)">Bash</text>
+<text x="-53.43202209472656" y="4.809692159999997" style="font: normal 48.0969216px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="19.010640948616604" opacity="1" fill="#ffcc00" stroke="none" transform="translate(616, 294) rotate(-12)">SQL</text>
+<text x="-33.40235137939453" y="4.809692159999997" style="font: normal 48.0969216px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="19.010640948616604" opacity="1" fill="#ffcc00" stroke="none" transform="translate(382, 334)">JS</text>
+<text x="-107.98897552490234" y="4.008076800000001" style="font: normal 40.080768000000006px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="15.842200790513838" opacity="1" fill="#ffcc00" stroke="none" transform="translate(440, 228) rotate(-12)">Hibernate</text>
+<text x="-65.66816711425781" y="4.008076800000001" style="font: normal 40.080768000000006px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="15.842200790513838" opacity="1" fill="#ffcc00" stroke="none" transform="translate(566, 552) rotate(12)">J-Unit</text>
+<text x="-44.53224182128906" y="4.008076800000001" style="font: normal 40.080768000000006px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="15.842200790513838" opacity="1" fill="#ffcc00" stroke="none" transform="translate(662, 434)">CSS</text>
+<text x="-73.02726745605469" y="3.20646144" style="font: normal 32.0646144px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="12.673760632411069" opacity="1" fill="#ffcc00" stroke="none" transform="translate(348, 488) rotate(12)">VPython</text>
+<text x="-67.68914794921875" y="3.20646144" style="font: normal 32.0646144px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="12.673760632411069" opacity="1" fill="#ffcc00" stroke="none" transform="translate(462, 570) rotate(12)">Android</text>
+<text x="-30.26757049560547" y="3.20646144" style="font: normal 32.0646144px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="12.673760632411069" opacity="1" fill="#ffcc00" stroke="none" transform="translate(626, 252) rotate(12)">iOS</text>
+<text x="-27.37366485595703" y="2.4048460799999987" style="font: normal 24.0484608px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="9.505320474308302" opacity="1" fill="#ffcc00" stroke="none" transform="translate(584, 274)">PHP</text>
+<text x="-28.711830139160156" y="2.4048460799999987" style="font: normal 24.0484608px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="9.505320474308302" opacity="1" fill="#ffcc00" stroke="none" transform="translate(334, 402)">XML</text>
+<text x="-11.342269897460938" y="0.80161536" style="font: normal 8.0161536px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="3.1684401581027672" opacity="1" fill="#ffcc00" stroke="none" transform="translate(524, 354)">Swift</text>
+<text x="-12.016937255859375" y="0.80161536" style="font: normal 8.0161536px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="3.1684401581027672" opacity="1" fill="#ffcc00" stroke="none" transform="translate(542, 366)">JDBC</text>
+<text x="-8.678794860839844" y="0.80161536" style="font: normal 8.0161536px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="3.1684401581027672" opacity="1" fill="#ffcc00" stroke="none" transform="translate(482, 354) rotate(12)">JPA</text>
+</svg>

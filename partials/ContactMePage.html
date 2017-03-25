@@ -1,0 +1,51 @@
+<div class="dottedNavDiv">
+	<a href="#/"><div class="dottedNavObj1"><i class="fa fa-user fa-2x"></i></div></a>
+	<a href="#/ResumePage"><div class="dottedNavObj2"><i class="fa fa-graduation-cap fa-2x"></i></div></a>
+	<a href="#/ProjectsPage"><div class="dottedNavObj3"><i class="fa fa-code fa-2x"></i></div></a>
+	<a href="#/ContactMePage"><div class="dottedNavObj4"><i class="fa fa-envelope-o fa-2x"></i></div></a>
+		
+	<div class="dottedNavHome" ng-click="navClicked()"><i class="fa fa-home fa-4x"></i></div>
+</div>
+
+<div class="">
+	<div class="contact-header-box">
+		<h2 class="h2">Contact Me</h2>
+		<h4 class="h4">There are a bunch of ways to reach me - here are the best</h4>
+	</div>
+	<div class="col-xs-0 col-sm-1 col-md-3 col-lg-3 col-xl-4"></div>
+	<div class="col-xs-12 col-sm-10 col-md-6 col-lg-6 col-xl-4">
+		<div class="bubble-holder">
+			<div ng-class="emailBubble" ng-click="setActiveContact('email')" ng-model="email">
+				<i class="fa fa-envelope-open-o fa-3x"></i></div>
+			<div ng-class="linkedinBubble" ng-click="setActiveContact('linkedin')" ng-model="linkedin">
+				<i class="fa fa-linkedin fa-3x"></i></div>
+			<div ng-class="callBubble" ng-click="setActiveContact('call')" ng-model="call">
+				<i class="fa fa-mobile fa-3x"></i></div>
+			<!-- <div ng-class="formBubble" ng-click="setActiveContact('form')" ng-model="form">
+				<i class="fa fa-pencil-square-o fa-3x"></i></div> -->
+		</div>
+	</div>
+	<div class="col-xs-0 col-sm-1 col-md-3 col-lg-3 col-xl-4"></div>
+	<div class="contact-info-box">
+		<div class="contact-slide" id="nothing" ng-hide="isSelected!='nothing'">
+			<h3 class="h3 text-center">Choose your preferred method of communication from above</h3>
+		</div>
+		<div class="contact-slide" id="email" ng-hide="isSelected!='email'">
+			<h3 class="h3 text-center">Send me an E-mail</h3>
+			<h2 class="h2 text-center text-blue" style="margin-top: 30px;">seangoldenr@gmail.com</h2>
+		</div>
+		<div class="contact-slide" id="linkedin" ng-hide="isSelected!='linkedin'">
+			<h3 class="h3 text-center">Connect with me on Linked-in</h3>
+			<h2 class="h2 text-center" style="margin-top: 30px;">My public profile can be found
+				<a class="a-land" href="https://www.linkedin.com/in/sean-golden-650497aa">here</a>!</h2>
+		</div>
+		<div class="contact-slide" id="call" ng-hide="isSelected!='call'">
+			<h3 class="h3 text-center">Reach me on my Mobile</h3>
+			<h2 class="h2 text-center text-blue" style="margin-top: 30px;">+1 (781) 974-5332</h2>
+		</div>
+		<!--  FORM NOT YET COMPLETED -->
+		<div class="contact-slide" id="form" style="padding-top: 10px;" ng-hide="isSelected!='form'">
+			<h3 class="h3 text-center">Use this form to send me a message</h3>
+		</div>
+	</div>
+</div>

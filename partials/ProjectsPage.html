@@ -1,0 +1,146 @@
+<div class="dottedNavDiv">
+	<a href="#/" class="dottedNavObj1"><i class="fa fa-user"></i></a>
+	<a href="#/ResumePage" class="dottedNavObj2"><i class="fa fa-graduation-cap"></i></a>
+	<a href="#/ProjectsPage" class="dottedNavObj3"><i class="fa fa-code"></i></a>
+	<a href="#/ContactMePage" class="dottedNavObj4"><i class="fa fa-envelope-o"></i></a>
+		
+	<div class="dottedNavHome" ng-click="navClicked()"><i class="fa fa-home"></i></div>
+</div>
+<div class="choose-filter-div" ng-hide="filterSelection!='none'">
+	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 choose-domain-div" ng-click="setChoice('domain')">
+		<div class="choose-domain-overlay">
+			<div class="domain-text-div">
+				<h2 class="h2 text-center domain-text">View Projects By Domain</h2>
+			</div>
+		</div>
+	</div>
+	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 choose-tech-div" ng-click="setChoice('tech')">
+		<div class="choose-tech-overlay">
+			<div class="tech-text-div">
+				<h2 class="h2 text-center tech-text">View Projects By Technology</h2>
+			</div>
+		</div>
+	</div>
+	<div class="choose-view-all" ng-click="setChoice('all')">
+		<h3 class="h3 text-center">Or Click Here to<br/>View All Projects</h3>
+	</div>
+</div>
+<div class="choose-filter-div-all" ng-hide="filterSelection!='all'">
+	<div class="all-project-back">
+		<h4 class="h4 text-center text-white all-project-text" ng-click="setChoice('none')">
+			<i class="fa fa-arrow-left"></i> Click to Go Back</h4>
+	</div>
+	<div class="all-project-header">
+		<h2 class="h2 text-center">All Projects</h2>
+	</div>
+	<div class="all-project-list">
+		<div class="inner-div">
+			<div ng-repeat="project in projectsList" class="all-project-line" ng-click="setProject(project)">
+				<p class="text-left project-line-text">{{ project.Project }}</p>
+			</div>
+		</div>
+	</div>
+	<div class="all-project-detail" ng-hide="selectedProject==null">
+		<h3 class="h3 text-center all-project-detail-header">{{ selectedProject.Project }}</h3>
+		<h5 class="h5 text-left all-project-detail-text" style="margin-top: 30px;">
+			<b class="all-project-detail-title">Domain:</b> {{ selectedProject.Domain }}</h5>
+		<h5 class="h5 text-left all-project-detail-text">
+			<b class="all-project-detail-title">Technology:</b> {{ selectedProject.Tech }}</h5>
+		<h5 class="h5 text-left all-project-detail-text">
+			<b class="all-project-detail-title">Description:</b> {{ selectedProject.Description }}</h5>
+	</div>
+</div>
+<div ng-hide="filterSelection!='tech'" class="tech-map-div">
+	<div class="domain-back-button" ng-click="setChoice('none')" ng-hide="selectedTech!='none'">
+		<h2 class="h2"><i class="fa fa-arrow-left"></i> Back to Home</h2>
+	</div>
+	<div class="domain-selection-div" ng-hide="selectedTech!='none'">
+		<div class="domain-domain-header-div">
+			<h2 class="h2 text-center domain-domain-header-text">Select a Technology to view Projects</h2>		
+		</div>
+		<div ng-repeat="tech in techList" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 tech-techBubble"
+			ng-click="setTech(tech)">
+			<p class="domain-domainBubble-text text-center">{{ tech.Name }}</p>
+		</div>
+	</div>
+	<div class="domain-selectedDomain-div" ng-hide="selectedTech=='none'">
+		<div ng-hide="selectedProject!=null">
+			<div class="selectedDomain-domain-header-div">
+				<h3 class="h3 text-center selectedDomain-domain-header-text" style="margin-top: 30px;">
+					My {{ selectedTech.Name }} Projects</h3>
+			</div>
+			<div class="project-holder">
+				<div ng-repeat="project in projectsList" ng-hide="!project.Tech.includes(selectedTech.Name)" 
+					class="project-line" ng-click="setProject(project)">
+						<p class="text-center project-line-text">{{ project.Project }}</p>
+				</div>
+			</div>
+			<div class="domain-back-text-div" ng-click="setTech('none')">
+					<h4 class="h4 text-center selectedDomain-domain-header-text">
+						<i class="fa fa-arrow-left"></i> Back to Technology List</h4>
+			</div>
+		</div>
+		<div ng-hide="selectedProject==null" class="project-detail-div">
+			<h3 class="h3 text-center project-detail-title">{{ selectedProject.Project }}</h3>
+			<div class="project-detail-text-div">
+				<h5 class="h5 text-left selectedDomain-domain-header-text">
+					<b class="project-detail-text-title">Domain:</b>     {{ selectedProject.Domain }}</h5>
+				<h5 class="h5 text-left selectedDomain-domain-header-text">
+					<b class="project-detail-text-title">Technology Used:</b>     {{ selectedProject.Tech }}</h5>
+				<h5 class="h5 text-left selectedDomain-domain-header-text">
+					<b class="project-detail-text-title">Description:</b>     {{ selectedProject.Description }}</h5>
+			</div>
+			<div class="domain-back-text-div" ng-click="setProject(null)">
+				<h4 class="h4 text-center selectedDomain-domain-header-text">
+					<i class="fa fa-arrow-left"></i> Back to Projects List</h4>
+			</div>
+		</div>
+	</div>
+</div>
+<div ng-hide="filterSelection!='domain'" class="domain-map-div">
+	<div class="domain-back-button" ng-click="setChoice('none')" ng-hide="selectedDomain!='none'">
+		<h2 class="h2"><i class="fa fa-arrow-left"></i> Back to Home</h2>
+	</div>
+	<div class="domain-selection-div" ng-hide="selectedDomain!='none'">
+		<div class="domain-domain-header-div">
+			<h2 class="h2 text-center domain-domain-header-text">Select a Domain to view Projects</h2>		
+		</div>
+		<div ng-repeat="domain in domainsList" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 domain-domainBubble"
+			ng-click="setDomain(domain.Name)">
+			<p class="domain-domainBubble-text text-center">{{ domain.Name }}</p>
+		</div>
+	</div>
+	<div class="domain-selectedDomain-div" ng-hide="selectedDomain=='none'">
+		<div ng-hide="selectedProject!=null">
+			<div class="selectedDomain-domain-header-div">
+				<h3 class="h3 text-center selectedDomain-domain-header-text" style="margin-top: 30px;">
+					My {{ selectedDomain }} Projects</h3>
+			</div>
+			<div class="project-holder">
+				<div ng-repeat="project in projectsList" ng-hide="project.Domain!=selectedDomain" 
+					class="project-line" ng-click="setProject(project)">
+						<p class="text-center project-line-text">{{ project.Project }}</p>
+				</div>
+			</div>
+			<div class="domain-back-text-div" ng-click="setDomain('none')">
+					<h4 class="h4 text-center selectedDomain-domain-header-text">
+						<i class="fa fa-arrow-left"></i> Back to Domain List</h4>
+			</div>
+		</div>
+		<div ng-hide="selectedProject==null" class="project-detail-div">
+			<h3 class="h3 text-center project-detail-title">{{ selectedProject.Project }}</h3>
+			<div class="project-detail-text-div">
+				<h5 class="h5 text-left selectedDomain-domain-header-text">
+					<b class="project-detail-text-title">Domain:</b>     {{ selectedProject.Domain }}</h5>
+				<h5 class="h5 text-left selectedDomain-domain-header-text">
+					<b class="project-detail-text-title">Technology Used:</b>     {{ selectedProject.Tech }}</h5>
+				<h5 class="h5 text-left selectedDomain-domain-header-text">
+					<b class="project-detail-text-title">Description:</b>     {{ selectedProject.Description }}</h5>
+			</div>
+			<div class="domain-back-text-div" ng-click="setProject(null)">
+				<h4 class="h4 text-center selectedDomain-domain-header-text">
+					<i class="fa fa-arrow-left"></i> Back to Projects List</h4>
+			</div>
+		</div>
+	</div>
+</div>

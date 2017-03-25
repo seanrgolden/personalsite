@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024px" height="768px" viewBox="0 0 1024 768">
+<clipPath id="cp2">
+<path d="M 0,0 L 1024,0 L1024,768 L 0,768 z M 0,0 L 1280,0 L 1280,960 L 0,960 z" fill-rule="evenodd">
+</path>
+</clipPath>
+<g clip-path="url(#cp2)">
+</g>
+<rect x="0" y="0" width="1280" height="960" opacity="1" fill="#ffffff" stroke="none">
+</rect>
+<text x="-333.9501647949219" y="6.643387296" style="font: normal 66.43387296px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="26.25844781027668" opacity="1" fill="#0059b3" stroke="none" transform="translate(510, 384)">OperatingSystems</text>
+<text x="-315.4938049316406" y="6.643387296" style="font: normal 66.43387296px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="26.25844781027668" opacity="1" fill="#0059b3" stroke="none" transform="translate(524, 282) rotate(-12)">SoftwareSecurity</text>
+<text x="-311.9095764160156" y="6.643387296" style="font: normal 66.43387296px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="26.25844781027668" opacity="1" fill="#0059b3" stroke="none" transform="translate(512, 448)">MachineLearning</text>
+<text x="-244.9810791015625" y="5.314709836799999" style="font: normal 53.147098368px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="21.006758248221345" opacity="1" fill="#0059b3" stroke="none" transform="translate(468, 246) rotate(-12)">NetworkSecurity</text>
+<text x="-243.57992553710938" y="5.314709836799999" style="font: normal 53.147098368px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="21.006758248221345" opacity="1" fill="#0059b3" stroke="none" transform="translate(534, 546) rotate(12)">FullDevelopment</text>
+<text x="-200.4190673828125" y="3.986032377599999" style="font: normal 39.860323776px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="15.755068686166009" opacity="1" fill="#0059b3" stroke="none" transform="translate(638, 318) rotate(-12)">FrontDevelopment</text>
+<text x="-166.05734252929688" y="3.986032377599999" style="font: normal 39.860323776px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="15.755068686166009" opacity="1" fill="#0059b3" stroke="none" transform="translate(442, 214) rotate(-12)">DataStructures</text>
+<text x="-86.3665542602539" y="3.986032377599999" style="font: normal 39.860323776px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="15.755068686166009" opacity="1" fill="#0059b3" stroke="none" transform="translate(546, 510) rotate(12)">BigData</text>
+<text x="-75.29218292236328" y="3.986032377599999" style="font: normal 39.860323776px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="15.755068686166009" opacity="1" fill="#0059b3" stroke="none" transform="translate(678, 344) rotate(-12)">Games</text>
+<text x="-55.352455139160156" y="3.986032377599999" style="font: normal 39.860323776px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="15.755068686166009" opacity="1" fill="#0059b3" stroke="none" transform="translate(656, 496)">GUIS</text>
+<text x="-76.76494598388672" y="2.6573549183999994" style="font: normal 26.573549184px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="10.503379124110673" opacity="1" fill="#0059b3" stroke="none" transform="translate(464, 182) rotate(-12)">Databases</text>
+<text x="-56.084991455078125" y="2.6573549183999994" style="font: normal 26.573549184px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="10.503379124110673" opacity="1" fill="#0059b3" stroke="none" transform="translate(484, 574) rotate(12)">Physics</text>
+<text x="-47.969970703125" y="2.6573549183999994" style="font: normal 26.573549184px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="10.503379124110673" opacity="1" fill="#0059b3" stroke="none" transform="translate(660, 428)">Mobile</text>
+<text x="-87.81134033203125" y="1.3286774591999997" style="font: normal 13.286774592px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="5.251689562055336" opacity="1" fill="#0059b3" stroke="none" transform="translate(484, 598) rotate(12)">ProgrammingLanguages</text>
+<text x="-54.59838104248047" y="1.3286774591999997" style="font: normal 13.286774592px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="5.251689562055336" opacity="1" fill="#0059b3" stroke="none" transform="translate(372, 546) rotate(12)">PersonalUsage</text>
+<text x="-51.27838897705078" y="1.3286774591999997" style="font: normal 13.286774592px 'Arial Black',Gadget,sans-serif" text-anchor="start" dy="5.251689562055336" opacity="1" fill="#0059b3" stroke="none" transform="translate(678, 530) rotate(12)">GeneralUsage</text>
+</svg>

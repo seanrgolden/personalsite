@@ -1,0 +1,61 @@
+<!-- This loads the facebook scripts -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1199551250114332',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script> 
+
+<h2 class="h2 text-center text-info">FaceBook API Test Page</h2>
+<h3 class="h3 text-center text-danger">{{ testMessage }}</h3>
+
+<div style="margin-top:50px"></div>
+<div class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+  	
+</div>
+
+<!-- THIS IS FOR FORM -->
+<h4 class="h4 text-center">Directly send me a message</h4>
+<div class="form">
+	<div class="col-xs-0 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+	<div class="col-xs-6 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+		<div class="form-group">
+			<label for="name">Name</label>
+			<input type="text" class="form-control" id="contact" name="name"  ng-model="formName"
+					placeholder="Jon Snow" required />
+		</div>
+	</div>
+	<div class="col-xs-6 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+		<div class="form-group">
+			<label for="contact">Best way to reach you</label>
+			<input type="text" class="form-control" id="contact" name="contact"  ng-model="formContact"
+					placeholder="theLordCommander@theKnightsWatch.com" required />
+		</div>
+	</div>
+	<div class="col-xs-0 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+	
+	<div class="col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xl-offset-1
+				 col-xs-9 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+		<div class="form-group">
+			<label for="message">Message:</label>
+			<textarea style="resize:none;" class="form-control" rows="3" id="message"
+				placeholder="Hey Sean, my name is Jon. I had a question regarding ..." required></textarea>
+		</div>	
+	</div>
+	<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+		<button type="submit" class="btn btn-primary btn-block">Send</button>
+	</div>
+</div>

@@ -207,7 +207,7 @@ app.controller('ContactMeController', function($document,$scope,$http) {
 	
 	var activeClass = "contact-bubble-active";
 	var inactiveClass = "contact-bubble";
-	$scope.emailBubble = inactiveClass;
+	$scope.emailBubble = activeClass;
 	$scope.linkedinBubble = inactiveClass;
 	$scope.callBubble = inactiveClass;
 	$scope.formBubble = inactiveClass;

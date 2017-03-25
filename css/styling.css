@@ -72,9 +72,13 @@
 a {
 	color: #b9d9ec;
 }
+.a-contact {
+	color: #b9d9ec;
+}
 .a-land {
 	color: #002269;
 }
+.a-contact:hover,
 .a-land:hover,
 a:hover {
 	color: #f9e08e;

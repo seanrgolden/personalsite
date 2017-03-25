@@ -14,7 +14,7 @@
 	</div>
 	<div class="col-xs-0 col-sm-1 col-md-3 col-lg-3 col-xl-4"></div>
 	<div class="col-xs-12 col-sm-10 col-md-6 col-lg-6 col-xl-4">
-		<div class="bubble-holder">
+		<div class="bubble-holder" ng-init="setActiveContact('email')">
 			<div ng-class="emailBubble" ng-click="setActiveContact('email')" ng-model="email">
 				<i class="fa fa-envelope-open-o fa-3x"></i></div>
 			<div ng-class="linkedinBubble" ng-click="setActiveContact('linkedin')" ng-model="linkedin">

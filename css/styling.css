@@ -4,7 +4,7 @@
 	color: rgba(1,30,65,1);
 }
 .main-gray {
-	color: #867875;
+	color: #898989;
 	color: rgba(134,120,117,1);
 }
 .light-blue {
@@ -243,7 +243,7 @@ a::selection {
 body {
 	padding:0px;
 	margin:0px;
-	background: #867875;
+	background: #898989;
 	position: relative;
 	z-index: -10;
 }
@@ -321,7 +321,7 @@ body {
 	z-index: -99;
 	height: 130px;
 	width: inherit;
-	background: #867875;
+	background: #898989;
 }
 .footer-head {
 	position: relative;
@@ -330,7 +330,7 @@ body {
 	width: 100%;
 	margin-left: -5px;
 	margin-right: -5px;
-	background: #867875;
+	background: #898989;
 	box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.8);
     -webkit-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.8);
@@ -787,7 +787,7 @@ body {
 }
 .choose-view-all:hover {
 	color: #f9e08e;
-	background: #867875;
+	background: #898989;
 	transition: ease-in-out, .5s ease-in-out;
 	-webkit-box-shadow: 0px 0px 15px 4px rgba(249,224,142,0.6);
 	-moz-box-shadow: 0px 0px 15px 4px rgba(249,224,142,0.6);
@@ -1036,14 +1036,14 @@ body {
 	padding: 0px;
 	height: 100vh;
 	width: 100vw;
-	background: #867875;
+	background: #898989;
 	margin-left: -15px;
 }
 .domain-map-div {
 	padding: 0px;
 	height: 100vh;
 	width: 100vw;
-	background: #867875;
+	background: #898989;
 	margin-left: -15px;
 }
 .domain-selection-div {

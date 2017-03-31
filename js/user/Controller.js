@@ -4,10 +4,13 @@ app.controller('ProjectsPageController', function($scope,$http) {
 	$scope.domainsList, $scope.filteredDomains, $scope.numDomains = null;
 	$scope.techList, $scope.filteredTech, $scope.numTech = null;
 	$scope.filteredProjects = null;
+	$scope.numFilteredProjects = 0;
 	$scope.selectedDomain = 'none';
 	$scope.selectedTech = 'none';
 	$scope.selectedProject = null;
 	$scope.navSelected = false;
+	$scope.activeFilters = {};
+	$scope.activeFilters.domain, $scope.activeFilters.tech = null;
 	
 	$scope.navClicked = function() {
 		if ($scope.navSelected==true) {
@@ -28,6 +31,8 @@ app.controller('ProjectsPageController', function($scope,$http) {
 	$.getJSON('js/user/ProjectList.json', function(data) {
 		$scope.$apply(function() {
 			$scope.projectsList = data;
+			$scope.filteredProjects = $scope.projectsList;
+			$scope.numFilteredProjects = $scope.filteredProjects.length;
 		});
 	});
 	
@@ -45,6 +50,47 @@ app.controller('ProjectsPageController', function($scope,$http) {
 		});
 	});
 	
+	$scope.applyFilters = function(filterDomain, filterTech, allList) {
+		var filtered = [];
+		
+		if (filterDomain==null || filterDomain=='') {
+			// if both null
+			if (filterTech==null || filterTech=='') {
+				$scope.filteredProjects = allList;
+				$scope.numFilteredProjects = $scope.filteredProjects.length;
+			} else {
+				// if tech !null
+				for (project in allList) {
+					if ((allList[project].Tech).includes(filterTech)) {
+						filtered.push(allList[project]);
+					}
+				}
+				$scope.filteredProjects = filtered;
+				$scope.numFilteredProjects = $scope.filteredProjects.length;
+			}
+		} else {
+			// if domain !null
+			if (filterTech==null || filterTech=='') {
+				for (project in allList) {
+					if (allList[project].Domain==filterDomain) {
+						filtered.push(allList[project]);
+					}
+				}
+				$scope.filteredProjects = filtered;
+				$scope.numFilteredProjects = $scope.filteredProjects.length;
+			} else {
+				// if both !null
+				for (project in allList) {
+					if (allList[project].Tech.includes(filterTech) && allList[project].Domain==filterDomain) {
+						filtered.push(allList[project]);
+					}
+				}
+				$scope.filteredProjects = filtered;
+				$scope.numFilteredProjects = $scope.filteredProjects.length;
+			}
+		}
+	};
+	
 	$scope.filterSelection = 'none';
 	$scope.setChoice = function(choice) {
 		$scope.filterSelection = choice;
@@ -53,6 +99,7 @@ app.controller('ProjectsPageController', function($scope,$http) {
 		$scope.selectedProject = null;
 		$scope.filteredTech, $scope.filteredDomains = null;
 		$scope.filteredProjects = null;
+		$scope.numFilteredProjects = $scope.projectsList.length;
 	}
 	$scope.setDomain = function(domain) {
 		$scope.selectedDomain = domain;

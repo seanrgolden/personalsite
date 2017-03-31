@@ -697,6 +697,7 @@ body {
 	margin-bottom: 50px;
 }
 .contact-bubble {
+	cursor: pointer;
 	display: inline-block;
 	width: 70px;
     height: 70px;

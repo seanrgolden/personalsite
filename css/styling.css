@@ -346,7 +346,7 @@ body {
 	position: relative;
 	z-index: -99;
 	height: 130px;
-	width: inherit;
+	width: 100vw;
 	background: #898989;
 }
 .footer-head {
@@ -357,9 +357,9 @@ body {
 	margin-left: -5px;
 	margin-right: -5px;
 	background: #898989;
-	box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.8);
-    -moz-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 7px 1px -2px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px 7px 1px -2px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px 7px 1px -2px rgba(0, 0, 0, 0.8);
 	
 }
 .footer-foot {
@@ -706,7 +706,7 @@ body {
 /***** CONTACT ME PAGE *****/
 .contact-header-box {
 	margin: 50px auto 30px auto;
-	width: 60%;
+	width: 60vw;
 	padding: 10px 40px 20px 40px;
 	background: #d7d2c5;
 	text-align: center;
@@ -715,7 +715,6 @@ body {
 	-webkit-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	-moz-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
-		
 }
 .bubble-holder {
 	height: 10%;
@@ -790,9 +789,6 @@ body {
 	-webkit-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	-moz-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
-}
-.text-blue {
-	color: #002269;
 }
 /***** END CONTACT ME PAGE *****/
 /***** PROJECTS WEB *****/

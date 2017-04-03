@@ -9,7 +9,7 @@
 <div class="choose-filter-div-all">
 	<div class="all-project-filter">
 		<h5 class="h5 text-center all-project-filter-header">Show Projects in</h5>
-		<select ng-model="activeFilters.domain" class="form-control" id="domain-filter"
+		<select ng-model="activeFilters.domain" class="form-control text-center" id="domain-filter"
 			ng-change="applyFilters(activeFilters.domain, activeFilters.tech, projectsList)">
 			<option value="">-- All Domains --</option>
 			<option ng-repeat="domain in domainsList" ng-value="domain.Name">{{ domain.Name }}</option>
@@ -32,15 +32,19 @@
 		</div>
 	</div>
 	<div class="all-project-detail" ng-hide="selectedProject!=null">
-		<h3 class="h3 text-center all-project-detail-header">Select a project from the right to get more information</h3>
+		<div class="inner-div-detail" id="custom-scroll">
+			<h3 class="h3 text-center all-project-detail-header">Select a project from the right to get more information</h3>
+		</div>
 	</div>
 	<div class="all-project-detail" ng-hide="selectedProject==null">
-		<h3 class="h3 text-center all-project-detail-header">{{ selectedProject.Project }}</h3>
-		<h5 class="h5 text-left all-project-detail-text" style="margin-top: 30px;">
-			<b class="all-project-detail-title">Domain:</b> {{ selectedProject.Domain }}</h5>
-		<h5 class="h5 text-left all-project-detail-text">
-			<b class="all-project-detail-title">Technology:</b> {{ selectedProject.Tech }}</h5>
-		<h5 class="h5 text-left all-project-detail-text">
-			<b class="all-project-detail-title">Description:</b> {{ selectedProject.Description }}</h5>
+		<div class="inner-div-detail" id="custom-scroll">
+			<h3 class="h3 text-center all-project-detail-header">{{ selectedProject.Project }}</h3>
+			<h5 class="h5 text-left all-project-detail-text" style="margin-top: 30px;">
+				<b class="all-project-detail-title">Domain:</b> {{ selectedProject.Domain }}</h5>
+			<h5 class="h5 text-left all-project-detail-text">
+				<b class="all-project-detail-title">Technology:</b> {{ selectedProject.Tech }}</h5>
+			<h5 class="h5 text-left all-project-detail-text">
+				<b class="all-project-detail-title">Description:</b> {{ selectedProject.Description }}</h5>
+		</div>
 	</div>
 </div>

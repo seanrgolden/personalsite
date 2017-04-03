@@ -28,6 +28,30 @@
 	color: rgba(249,224,142,1);
 }
 /***** END COLORS *****/
+/***** DEFAULT SCROLLBAR *****/
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #d7d2c5;
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #d7d2c5;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #002269;
+}
+::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+/***** END DEFAULT SCROLLBAR *****/
 /***** FONTS *****/
 @keyframes landing-header-animation {
 	from {font-size: 24px;}
@@ -246,6 +270,8 @@ body {
 	background: #898989;
 	position: relative;
 	z-index: -10;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 #fullscreen-bg {
 	background-position: center center;
@@ -682,7 +708,7 @@ body {
 	margin: 50px auto 30px auto;
 	width: 60%;
 	padding: 10px 40px 20px 40px;
-	background: #c6bcb6;
+	background: #d7d2c5;
 	text-align: center;
 	-webkit-border-radius: 20px;
 	-mox-border-radius: 20px;
@@ -757,7 +783,7 @@ body {
 	padding: 0;
 	height: 35%;
 	width: 70%;
-	background: #c6bcb6;
+	background: #d7d2c5;
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-mox-border-radius: 20px;
@@ -828,6 +854,12 @@ body {
 	-moz-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 }
+#domain-filter,
+#tech-filter {
+	font-family: Spinnaker;
+	width: 80%;
+	margin: 0 auto;
+}
 .all-project-filter-header {
 	margin: 0 0 5px 0;
 	color: #011e41;
@@ -846,7 +878,7 @@ body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	overflow: scroll;
+	overflow: auto;
 	overflow-x: hidden;
 }
 .all-project-list {
@@ -864,6 +896,7 @@ body {
 	-moz-box-shadow: inset 0px 0px 8px 4px rgba(0,0,0,0.8);
 	box-shadow: inset 0px 0px 8px 4px rgba(0,0,0,0.8);
 }
+/** CUSTOM SCROLLBAR **/
 #custom-scroll::-webkit-scrollbar {
 	width: 10px;
 	background-color: #d7d2c5;
@@ -886,6 +919,7 @@ body {
 #custom-scroll::-webkit-scrollbar-corner {
 	background-color: transparent;
 }
+/** END CUSTOM SCROLLBAR **/
 .all-project-line {
 	cursor: pointer;
 	max-height: 12%;
@@ -916,8 +950,6 @@ body {
 	
 }
 .all-project-detail {
-	overflow: scroll;
-	overflow-x: hidden;
 	position: absolute;
 	height: 60vh;
 	width: 30vw;
@@ -926,10 +958,17 @@ body {
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	background: #d7d2c5;
-	padding: 2vh 2vw;
+	padding: 20px 15px 25px 15px;
 	-webkit-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	-moz-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
+}
+.inner-div-detail {
+	height: 100%;
+	margin: 0;
+	padding: 0 5px 0 10px;
+	overflow: auto;
+	overflow-x: hidden;
 }
 .all-project-detail-header {
 	font-weight: bold;

@@ -776,7 +776,7 @@ body {
 	position: absolute;
  	top: 70vh;
  	left: 40vw;
-	border-radius: 2vw / 4vh;
+	border-radius: 20px;
 	width: 20vw;
 	height: 15vh;
 	color: #002269;
@@ -819,11 +819,11 @@ body {
 	top: 13vh;
 	left: 10vw;
 	color: white;
-	border-radius: 2vw / 4vh;
+	border-radius: 20px;;
+	-webkit-border-radius: 20px;
 	padding: 0;
-	-webkit-border-radius: 2vw / 4vh;
 	background: #d7d2c5;
-	padding: 2vh 2vw;
+	padding: 10px 10px;
 	-webkit-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	-moz-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
 	box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);
@@ -847,25 +847,47 @@ body {
 	height: 100%;
 	width: 100%;
 	overflow: scroll;
+	overflow-x: hidden;
 }
 .all-project-list {
 	overflow: hidden;
 	position: absolute;
 	height: 80vh;
 	width: 60vw;
-	border-radius: 2vw / 4vh;
-	-webkit-border-radius: 2vw / 4vh;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
 	background: #d7d2c5;
 	top: 15vh;
 	right: 3vw;
-	padding: 2px;
+	padding: 25px 15px 25px 2px;
 	-webkit-box-shadow: inset 0px 0px 8px 4px rgba(0,0,0,0.8);
 	-moz-box-shadow: inset 0px 0px 8px 4px rgba(0,0,0,0.8);
 	box-shadow: inset 0px 0px 8px 4px rgba(0,0,0,0.8);
 }
+#custom-scroll::-webkit-scrollbar {
+	width: 10px;
+	background-color: #d7d2c5;
+}
+#custom-scroll::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #d7d2c5;
+}
+#custom-scroll::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #002269;
+}
+#custom-scroll::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}
+#custom-scroll::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
 .all-project-line {
 	cursor: pointer;
-	min-height: 10%;
 	max-height: 12%;
 	width: 90%;
 	background: #002269;
@@ -895,13 +917,14 @@ body {
 }
 .all-project-detail {
 	overflow: scroll;
+	overflow-x: hidden;
 	position: absolute;
 	height: 60vh;
 	width: 30vw;
 	top: 35vh;
 	left: 3vw;
-	border-radius: 2vw / 4vh;
-	-webkit-border-radius: 2vw / 4vh;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
 	background: #d7d2c5;
 	padding: 2vh 2vw;
 	-webkit-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.8);

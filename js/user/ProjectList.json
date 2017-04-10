@@ -187,7 +187,7 @@
  },
  {
    "Project": "Developed a Drone Controller able to remotely control Parrot.AR Drones",
-   "Description": "Developed a Drone Controller in Python that is able to remotely controller a Parrot.AR Drone using a keyboard. The Controller works using Python sockets.",
+   "Description": "Developed a Drone Controller in Python that is able to remotely control a Parrot.AR Drone using a keyboard. The Controller works using Python sockets.",
    "Domain": "Network Security",
    "Tech": "Python"
  },

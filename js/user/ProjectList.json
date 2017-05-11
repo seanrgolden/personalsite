@@ -1,15 +1,9 @@
 [
- {
-   "Project": "Developed Mobile WebStore App in Android Studio",
-   "Description": "Developed Mobile WebStore App in Android Studio using Java and XML. App includes a very basic BuyFlow and Google Maps integration",
-   "Domain": "Mobile",
-   "Tech": "Android, Java, XML"
- },
- {
-   "Project": "Developed Personal Site",
-   "Description": "Developed my Personal Website as a means to highlight and practice my Front End Development. Site is built using Angular-JS, CSS, HTML5, JS, and XML. The code is sourced on GitHub and my local copy includes Apache Tomcat servers and Maven Repository integration.",
-   "Domain": "Front End Development",
-   "Tech": "Angular-JS, CSS, HTML5, JS, XML"
+  {
+   "Project": "Participated in a “Cyber War Game” which included the Development of a Username/Password Protected Program",
+   "Description": "Participated in a class wide “Cyber War Game” which involved the development of a username/password protected program. Upon checking a set of approved credential a secret file would be read out to the terminal. This program was designed by each student and put on a class maintained server. Each member then set out to “steal” fellow classmates secret data using whatever methods they saw fit. Using a back traversal method which altered the running permissions of my executable I was able to obtain the secret data of 90% of my classmates, the highest percentage of the class. My program was also impenetrable, one of three which was not breakable.",
+   "Domain": "Software Security",
+   "Tech": "C++"
  },
  {
    "Project": "Developed Structured Product Page for Vest Financial LLC",
@@ -22,6 +16,30 @@
    "Description": "Developed a WebApp for Mobile Phone Comparison during my training with Infosys Ltd. in Mysore, India. This Enterprise application includes an array of Technologies which included the development in Angular-JS, CSS, Hibernate, HTML5, Java, JDBC, JPA, JS, SQL, and XML. Apache Tomcat 7, Maven Repositores, Oracle Databases, and Jenkins Automation tools were also used in the creation with this application. The final WebApp received the highest marks out of the entire 2016 training batch.",
    "Domain": "Full Stack Development",
    "Tech": "Angular-JS, CSS, Hibernate, HTML5, Java, JDBC, JPA, JS, SQL, XML"
+ },
+  {
+   "Project": "Developed scripts for Proprietary Cryptography reversal attacks",
+   "Description": "Developed a number of scripts in Python that were meant to reverse the logic of proprietary cryptography. These scripts were used in a “Cyber War Game” in which the goal was to break a simple username/password protected application and obtain the “secret data”. Many applications used “obscure” self-developed cryptography which was easily reversible. Running a script on the reversed crypto logic allowed for fast attempts until a fake authentication was triggered in the executable.",
+   "Domain": "Software Security",
+   "Tech": "Python"
+ },
+  {
+   "Project": "Developed a Program to detect Persons with High Risk of Heart Disease",
+   "Description": "Developed a program in C++ that was able to detect persons with a high risk of heart disease from a given input file. This file would be loaded as an command line argument and would be stored in a personally designed Linked-List. Some other internal operations were possible, but the main functionality was to output a text file that held the persons that were at risk of heart disease based on the Reynolds Heart Risk Score.",
+   "Domain": "Data Structures",
+   "Tech": "C++"
+ },
+  {
+   "Project": "Developed a Drone Subverter able to overtake control of a Parrot.AR Drone",
+   "Description": "Developed a Drone Subverter in Python that is able to overtake control of a currently flying Parrot.AR Drone and land it to the ground. The Subverter was also successful in shutting out the previous user by blacklisting their MAC address from the drone’s internal hardware.",
+   "Domain": "Network Security",
+   "Tech": "Python"
+ },
+  {
+   "Project": "Developed an Encrypted Peer-to-Peer Instant Messaging System",
+   "Description": "Developed a peer to peer instant messaging system using python sockets. This system sent encrypted messages using a RSA handshake that maintained internally in the application. When the network packets were sniffed using packet sniffers, there was no ability to retrieve data or use man in the middle attacks.",
+   "Domain": "Network Security",
+   "Tech": "Python"
  },
  {
    "Project": "Developed Scripts for Personal Directory Management",
@@ -84,10 +102,10 @@
    "Tech": "C-Language"
  },
  {
-   "Project": "Developed a Program to detect Persons with High Risk of Heart Disease",
-   "Description": "Developed a program in C++ that was able to detect persons with a high risk of heart disease from a given input file. This file would be loaded as an command line argument and would be stored in a personally designed Linked-List. Some other internal operations were possible, but the main functionality was to output a text file that held the persons that were at risk of heart disease based on the Reynolds Heart Risk Score.",
-   "Domain": "Data Structures",
-   "Tech": "C++"
+   "Project": "Developed Personal Site",
+   "Description": "Developed my Personal Website as a means to highlight and practice my Front End Development. Site is built using Angular-JS, CSS, HTML5, JS, and XML. The code is sourced on GitHub and my local copy includes Apache Tomcat servers and Maven Repository integration.",
+   "Domain": "Front End Development",
+   "Tech": "Angular-JS, CSS, HTML5, JS, XML"
  },
  {
    "Project": "Developed a number of Data Structures",
@@ -98,12 +116,6 @@
  {
    "Project": "Developed a Password Storage and Generation application",
    "Description": "Developed an application in C++ to store and generate seemingly random passwords. The application worked such that you gave a easy memorable password for a given account (facebook, twitter, etc..) and the application would hash it and return a 16 digit string. This string was seemingly non-sensical such that it was hard to break using brute force strategies, but would always be produced given the same input password and account type. I actually use this day to day for my personal accounts.",
-   "Domain": "Software Security",
-   "Tech": "C++"
- },
- {
-   "Project": "Participated in a “Cyber War Game” which included the Development of a Username/Password Protected Program",
-   "Description": "Participated in a class wide “Cyber War Game” which involved the development of a username/password protected program. Upon checking a set of approved credential a secret file would be read out to the terminal. This program was designed by each student and put on a class maintained server. Each member then set out to “steal” fellow classmates secret data using whatever methods they saw fit. Using a back traversal method which altered the running permissions of my executable I was able to obtain the secret data of 90% of my classmates, the highest percentage of the class. My program was also impenetrable, one of three which was not breakable.",
    "Domain": "Software Security",
    "Tech": "C++"
  },
@@ -180,28 +192,16 @@
    "Tech": "Python"
  },
  {
-   "Project": "Developed an Encrypted Peer-to-Peer Instant Messaging System",
-   "Description": "Developed a peer to peer instant messaging system using python sockets. This system sent encrypted messages using a RSA handshake that maintained internally in the application. When the network packets were sniffed using packet sniffers, there was no ability to retrieve data or use man in the middle attacks.",
-   "Domain": "Network Security",
-   "Tech": "Python"
- },
- {
    "Project": "Developed a Drone Controller able to remotely control Parrot.AR Drones",
    "Description": "Developed a Drone Controller in Python that is able to remotely control a Parrot.AR Drone using a keyboard. The Controller works using Python sockets.",
    "Domain": "Network Security",
    "Tech": "Python"
  },
- {
-   "Project": "Developed a Drone Subverter able to overtake control of a Parrot.AR Drone",
-   "Description": "Developed a Drone Subverter in Python that is able to overtake control of a currently flying Parrot.AR Drone and land it to the ground. The Subverter was also successful in shutting out the previous user by blacklisting their MAC address from the drone’s internal hardware.",
-   "Domain": "Network Security",
-   "Tech": "Python"
- },
- {
-   "Project": "Developed scripts for Proprietary Cryptography reversal attacks",
-   "Description": "Developed a number of scripts in Python that were meant to reverse the logic of proprietary cryptography. These scripts were used in a “Cyber War Game” in which the goal was to break a simple username/password protected application and obtain the “secret data”. Many applications used “obscure” self-developed cryptography which was easily reversible. Running a script on the reversed crypto logic allowed for fast attempts until a fake authentication was triggered in the executable.",
-   "Domain": "Software Security",
-   "Tech": "Python"
+  {
+   "Project": "Developed Mobile WebStore App in Android Studio",
+   "Description": "Developed Mobile WebStore App in Android Studio using Java and XML. App includes a very basic BuyFlow and Google Maps integration",
+   "Domain": "Mobile",
+   "Tech": "Android, Java, XML"
  },
  {
    "Project": "Developed a number of small apps to parse Wikipedia Data Dumps",
